@@ -1,0 +1,33 @@
+#!/usr/bin/perl
+use strict;
+package main;
+use lib qw(./lib);
+use vars qw($config);
+
+use Qt;
+
+# My MainForm
+use PlKast;
+use PlKast::Config;
+use PlKast::UI::MainForm;
+
+$main::config = PlKast::Config(undef, "global_config");
+use Data::Dumper;
+print STDERR Dumper($main::config);
+
+# sub END {
+#   $config->_xml_save();
+# }
+
+$main::app = Qt::Application(\@ARGV);
+Qt::Object::connect($main::app, SIGNAL "aboutToQuit()",
+										$main::config, SLOT "plkastClosing()");
+
+$main::mainform = PlKast::UI::MainForm();
+Qt::Object::connect($main::app, SIGNAL "aboutToQuit()",
+										$main::mainform, SLOT "plkastClosing()");
+
+$main::app->setMainWidget($main::mainform);
+
+$main::mainform->show();
+$main::app->exec();

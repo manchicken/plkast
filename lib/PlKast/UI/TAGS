@@ -1,0 +1,18 @@
+
+/home/manchicken/Documents/devel/plkast/lib/PlKast/UI/MainForm.pm,513
+sub NEW {NEW18,263
+sub fileNew {fileNew23,322
+sub fileOpen {fileOpen42,781
+sub fileSave {fileSave46,877
+sub fileSaveAs {fileSaveAs50,973
+sub filePrint {filePrint54,1073
+sub fileExit {fileExit58,1171
+sub editUndo {editUndo62,1267
+sub editRedo {editRedo66,1363
+sub editCut {editCut70,1459
+sub editCopy {editCopy74,1553
+sub editPaste {editPaste78,1649
+sub editFind {editFind82,1747
+sub helpIndex {helpIndex86,1843
+sub helpContents {helpContents90,1941
+sub helpAbout {helpAbout94,2045

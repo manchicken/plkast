@@ -1,0 +1,39 @@
+<!DOCTYPE UI><UI version="3.0" stdsetdef="1">
+<class>PlKast::UI::LoadScreen::Impl</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>LoadScreen</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>193</width>
+            <height>50</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>PlKast: Loading</string>
+    </property>
+    <property name="modal">
+        <bool>true</bool>
+    </property>
+    <hbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>loadingLabel</cstring>
+            </property>
+            <property name="text">
+                <string>Loading, please wait...</string>
+            </property>
+            <property name="alignment">
+                <set>AlignCenter</set>
+            </property>
+        </widget>
+    </hbox>
+</widget>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

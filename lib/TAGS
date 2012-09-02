@@ -1,0 +1,7 @@
+
+/home/manchicken/Documents/devel/plkast/lib/PlKast.pm,191
+sub _get_rcfile {_get_rcfile8,83
+sub _get_configdir {_get_configdir12,151
+sub _get_data_file_name {_get_data_file_name22,370
+sub _load_rcfile {_load_rcfile27,469
+sub new {new45,936

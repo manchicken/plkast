@@ -1,0 +1,7 @@
+* MAJOR
+** Gotta get the UI back up and running.
+
+* MEDIUM
+
+* MINOR
+** This error: DESTROY created new reference to dead object ' Qt::Action' during global destruction.

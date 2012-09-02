@@ -1,0 +1,5 @@
+This application requires the following Perl modules:
+ * Qt modules
+ * XML::TreePP
+ * Error
+ * LWP
